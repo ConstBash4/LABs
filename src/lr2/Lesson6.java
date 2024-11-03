@@ -10,7 +10,7 @@ public class Lesson6 {
 		int num = scanner.nextInt();
 		scanner.close();
 		int numOriginal = num;
-		num = Math.abs(num);	//использование модуля числа из библиотеки математических операций
+		num = Math.abs(num);	//использование модуля числа из класса Math
 		int counter = 0;
 		if (num - 1000 >= 0) {
 			counter = num / 1000;
