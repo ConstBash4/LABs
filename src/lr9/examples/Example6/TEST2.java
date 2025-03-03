@@ -1,6 +1,6 @@
 package lr9.examples.Example6;
 
-public class Main2 {
+public class TEST2 {
     public static void main(String[] args) {
         Node head = null;
         for (int i = 9; i >= 0 ; i--) {
