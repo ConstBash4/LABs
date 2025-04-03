@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><computer_parts>
+    <part id="001">
+        <name>Процессор Intel Core i7</name>
+        <category>Центральный процессор (CPU)</category>
+        <description>Многоядерный процессор для мощных вычислений и игровых систем.</description>
+        <price currency="RUB">25000.00</price>
+    </part>
+    <part id="002">
+        <name>Видеокарта NVIDIA GeForce RTX 3080</name>
+        <category>Графическая карта (GPU)</category>
+        <description>Высокопроизводительная видеокарта для гейминга и профессиональных задач.</description>
+        <price currency="RUB">150000.00</price>
+    </part>
+    <part id="003">
+        <name>Оперативная память Corsair Vengeance LPX 16GB</name>
+        <category>Оперативная память (RAM)</category>
+        <description>Универсальная оперативная память с высокой скоростью передачи данных.</description>
+        <price currency="RUB">9000.00</price>
+    </part>
+    <part id="004">
+        <name>Жесткий диск Seagate BarraCuda 1TB</name>
+        <category>Жесткий диск (HDD)</category>
+        <description>Экспоненциально увеличенный жесткий диск для хранения больших объемов данных.</description>
+        <price currency="RUB">4000.00</price>
+    </part>
+    <part id="005">
+        <name>Материнская плата ASUS ROG Strix B560-F Gaming</name>
+        <category>Материнская плата</category>
+        <description>Гейминг-материнская плата с поддержкой последних технологий.</description>
+        <price currency="RUB">12000.00</price>
+    </part>
+    <part id="006">
+        <name>Блок питания EVGA SuperNOVA 750 G3</name>
+        <category>Блок питания</category>
+        <description>Эффективный блок питания для подачи мощности различным компонентам ПК.</description>
+        <price currency="RUB">16000.00</price>
+    </part>
+<part><name>Test</name><category>Test</category><description>Test</description><price>100.1</price></part></computer_parts>
