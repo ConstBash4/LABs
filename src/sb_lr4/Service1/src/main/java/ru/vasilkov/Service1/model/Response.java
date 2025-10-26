@@ -6,12 +6,13 @@ import lombok.Data;
 @Data
 @Builder
 public class Response {
-    private String uid;
-    private String operationUid;
-    private String systemTime;
-    private Codes code;
-    private ErrorCodes errorCode;
-    private ErrorMessages errorMessage;
+    private String uid; // уникальный идентификатор сообщения
+    private String operationUid; // уникальный идентификатор операции
+    private String systemTime; // имя системы отправителя
+    private Codes code; // код операции
+    private Double annualBonus; // годовая премия
+    private ErrorCodes errorCode; // код ошибки
+    private ErrorMessages errorMessage; // сообщение об ошибке
 
     @Override
     public String toString() {
@@ -20,6 +21,7 @@ public class Response {
                 ", operationUid='" + operationUid + '\'' +
                 ", systemTime='" + systemTime + '\'' +
                 ", code='" + code + '\'' +
+                ", annualBonus='" + annualBonus + '\'' +
                 ", errorCode='" + errorCode + '\'' +
                 ", errorMessage='" + errorMessage +
                 '}';

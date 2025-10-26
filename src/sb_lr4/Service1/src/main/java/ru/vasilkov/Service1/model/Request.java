@@ -11,21 +11,26 @@ public class Request {
 
     @NotBlank
     @Size(max = 32)
-    private String uid;
+    private String uid; // уникальный идентификатор сообщения
 
     @NotBlank
     @Size(max = 32)
-    private String operationUid;
-    private Systems systemName;
+    private String operationUid; // уникальный идентификатор операции
+    @Setter
+    private Systems systemName; // имя системы отправителя
     @NotBlank
-    private String systemTime;
-    private String source;
+    private String systemTime; // время создания сообщения
+    private String source; // наименование ресурса
+    private Positions position; // наименовании позиции
+    private Double salary; // заработная плата
+    private Double bonus; // коэффициент премии
+    private Integer workDays; // кол-во рабочих дней
     @Min(value = 1)
     @Max(value = 100000)
-    private int communicationId;
-    private int templateId;
-    private int productCode;
-    private int smsCode;
+    private int communicationId; // уникальный идентификатор коммуникации
+    private int templateId; // уникальный идентификатор шаблона
+    private int productCode; // код продукта
+    private int smsCode; // смс код
 
     @Override
     public String toString() {
@@ -40,9 +45,5 @@ public class Request {
                 ", productCode='" + productCode + '\'' +
                 ", smsCode='" + smsCode +
                 '}';
-    }
-
-    public void setSystemName(Systems systemName) {
-        this.systemName = systemName;
     }
 }
